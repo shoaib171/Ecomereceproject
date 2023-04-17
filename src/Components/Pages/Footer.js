@@ -55,6 +55,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr />
+      <div className="row">
+        <div className="col-12">
+          <footer className="text-center">
+            &#169; 2023 AS_Store. All Rights Reserved.
+          </footer>
+        </div>
+      </div>
     </div>
   );
 };

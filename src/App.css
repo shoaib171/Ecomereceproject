@@ -27,3 +27,32 @@
   padding: 0px 5px;
   border-radius: 20px;
 }
+.Service--part {
+  width: 15rem;
+  height: 8rem;
+  border: 2px solid grey;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: width 0.5s, height 0.5s;
+}
+.Service--part:hover {
+  width: 16.5rem;
+  height: 9rem;
+}
+.Service--part h5 {
+  text-align: center;
+}
+.Service--part2 {
+  width: 15rem;
+  height: 8rem;
+  border: 2px solid grey;
+  border-radius: 20%;
+  transition: width 0.5s, height 0.5s;
+  margin: auto;
+}
+.Service--part2:hover {
+  width: 16.5rem;
+}
+.Service--part2 h5 {
+  text-align: center;
+}

@@ -11,7 +11,9 @@ const Hero = (props) => {
             <span className=" text-primary fs-4 fw-bold  ">
               Welcome To <br />
             </span>
-            <h1 className="Header  text-uppercase">{props.title}</h1>
+            <h1 className="Header  text-uppercase animate__animated animate__bounce">
+              {props.title}
+            </h1>
             <p className=" text-justify  ">
               Shop the Latest Trends in Fashion and Beauty at our AS_Store -
               Your One-Stop Shop for all Things Chic! Discover Thousands of
@@ -22,9 +24,9 @@ const Hero = (props) => {
           </div>
         </div>
         <div className="d-flex justify-content-center col-lg-6 col-md-6 col-sm-12 mt-4 py-5  ">
-          <div className=" bg-dark  shadow-sm   ">
+          <div className=" bg-dark shadow-sm mb-5 me-3  ">
             <img
-              className="d-block w-100  mt-2 ms-2"
+              className="d-block w-100 mt-3 ms-3"
               height="400px"
               src="https://plus.unsplash.com/premium_photo-1661368885798-972e2b611ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fHNob3BwaW5nJTIwd2l0aCUyMGZhbWlseXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt="Hero--img"

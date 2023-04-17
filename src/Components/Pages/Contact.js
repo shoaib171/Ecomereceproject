@@ -2,33 +2,17 @@
 
 import React from "react";
 import { useForm } from "@formspree/react";
-import { NavLink } from "react-router-dom";
+
 const Contact = () => {
   const [state, handleSubmit] = useForm("xpzeogye");
   if (state.succeeded) {
-    return (
-      <div className="container text-center mt-5 bg-white shadow-lg ">
-        <div className="row ">
-          <div className="col-lg-12 col-md-12 col-sm-12 py-5">
-            <p className="fs-5">
-              Thanks for Message we will contact with you Soon.
-            </p>
-            <button className="btn btn-outline-dark">
-              <NavLink to="/" className="nav-link active" aria-current="page">
-                Back_to home
-              </NavLink>
-            </button>
-          </div>
-        </div>
-      </div>
-    );
   }
   return (
     <div className="container mt-4 mb-3">
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-6">
           <img
-            src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
             className="d-block w-100"
             alt="Shopping_img"
             height="550px"
