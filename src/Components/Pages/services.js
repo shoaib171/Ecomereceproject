@@ -15,10 +15,10 @@ const services = () => {
           </div>
         </div>
         <div className="col-lg-6 py-3">
-          <div className="Service--part2 shadow-lg bg-light animate__animated animate__backInDown ">
+          <div className="Service--part2 shadow-lg bg-light animate__animated animate__bounce ">
             <h5 className=" fs-4 text-dark mt-4  ">Easy Payment Method</h5>
           </div>
-          <div className="Service--part2 shadow-lg  bg-light mt-2 animate__animated animate__backInDown ">
+          <div className="Service--part2 shadow-lg  bg-light mt-2 animate__animated animate__bounce">
             <h5 className=" fs-4 text-dark mt-5 ">PayBack Guaranteed </h5>
           </div>
         </div>
