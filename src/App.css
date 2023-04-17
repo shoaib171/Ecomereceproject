@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lilita+One&family=Lobster&family=Rubik+Bubbles&family=Rubik+Gemstones&family=Rubik+Iso&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav li a {
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Hero--section > h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-family: "Alfa Slab One", cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Hero--part {
+  background-color: #0d6efd !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Footer--Container {
+  background-color: rgb(39, 34, 34);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer-part > input {
+  height: 35px;
+  width: 250px;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+  border-radius: 20px;
 }
