@@ -3,7 +3,9 @@
 import React from "react";
 import Logo from "../Common/Images/STORE.svg";
 import { NavLink } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 const Navbar = () => {
+  const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
   return (
     <>
       <nav className=" navbar navbar-expand-lg navbar-light bg-light shadow-sm  sticky-top">
@@ -55,10 +57,29 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="buttons">
-              <button className="btn btn-outline-dark">
-                <i className="fa fa-sign-in me-1"></i>
-                Login
-              </button>
+              {isAuthenticated ? (
+                <NavLink
+                  to="/"
+                  className="btn btn-outline-dark ms-2"
+                  onClick={() =>
+                    logout({
+                      logoutParams: { returnTo: window.location.origin },
+                    })
+                  }
+                >
+                  <i className="fa fa-sign-out me-2"></i>
+                  Logout
+                </NavLink>
+              ) : (
+                <NavLink
+                  to=""
+                  className="btn btn-outline-dark ms-2"
+                  onClick={() => loginWithRedirect()}
+                >
+                  <i className="fa fa-sign-in me-2"></i>
+                  Login
+                </NavLink>
+              )}
               <button className="btn btn-outline-dark ms-2">
                 <i className="fa fa-cart-plus me-1"></i>
                 Cart (0)
