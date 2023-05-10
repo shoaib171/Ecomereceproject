@@ -51,7 +51,7 @@ const Footer = () => {
           <div className="mt-5 py-2  ms-4">
             <h5 className="fs-5">Call_us</h5>
             <i className="fa fa-phone me-2" style={{ fontSize: "25px" }}></i>
-            <span>0971050584775</span>
+            <span>92 3035084827</span>
           </div>
         </div>
       </div>

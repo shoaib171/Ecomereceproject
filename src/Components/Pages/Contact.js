@@ -1,11 +1,30 @@
 /** @format */
 
 import React from "react";
+
 import { useForm } from "@formspree/react";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xpzeogye");
   if (state.succeeded) {
+    return (
+      <div className="container text-center mt-5 bg-white shadow-lg py-5">
+        <div className="row   ">
+          <div className=" col-lg-12 col-md-12 col-sm-12 py-5 ">
+            <p className="fs-3 fw-bold">
+              Thanks for Contact!
+              <br /> we will update soon...Thank-you
+            </p>
+            <button className="btn btn-outline-dark">
+              <NavLink to="/" className="nav-link active">
+                Back_to home
+              </NavLink>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   }
   return (
     <div className="container mt-4 mb-3">

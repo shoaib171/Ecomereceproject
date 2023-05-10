@@ -4,27 +4,29 @@ import React from "react";
 
 const services = () => {
   return (
-    <div className="container bg-light  mb-3 rounded">
+    <div className="container py-5">
       <div className="row">
-        <div className="col-lg-3 mt-5 py-3">
-          <div className="Service--part animate__animated animate__backInLeft ms-3 shadow-lg bg-light ms-5 ">
-            <h5 className=" fs-4 text-dark mt-5 ">
-              <i className=""></i>
-              Customer Support
-            </h5>
+        <div className=" Services--part col-lg-4 col-md-3 col-sm-12 shadow-sm py-5 mt-2 text-center ">
+          <div className="mt-5">
+            <i className="fa fa-truck fs-2"></i>
+            <h5 className="fw-bold"> Super Fast and Free Delivery</h5>
           </div>
         </div>
-        <div className="col-lg-6 py-3">
-          <div className="Service--part2 shadow-lg bg-light animate__animated animate__bounce ">
-            <h5 className=" fs-4 text-dark mt-4  ">Easy Payment Method</h5>
-          </div>
-          <div className="Service--part2 shadow-lg  bg-light mt-2 animate__animated animate__bounce">
-            <h5 className=" fs-4 text-dark mt-5 ">PayBack Guaranteed </h5>
-          </div>
+        <div className="col-lg-4 col-md-6 col-sm-12 text-center">
+          <span className="Services--Mid d-flex justify-content-center mt-2 py-5">
+            <i class="fa fa-ship fs-2"></i>
+            <h5 className="fw-bold ms-1">Non-contact Shipping</h5>
+          </span>
+          <span className="Services--Mid d-flex justify-content-center py-5 mt-2">
+            <i class="fa fa-money fs-2"></i>
+            <h5 className="fw-bold ms-1">Money-back Guaranteed</h5>
+          </span>
         </div>
-        <div className="col-lg-3 mt-5 py-3">
-          <div className="Service--part animate__animated animate__backInRight shadow-lg bg-light me-5 ">
-            <h5 className="fs-4 text-dark mt-4">Cash On Free Delivery</h5>
+
+        <div className="Services--part  col-lg-4 col-md-3 col-sm-12 shadow-sm mt-2 py-5 text-center">
+          <div className="mt-5">
+            <i class="fa fa-credit-card fs-2"></i>
+            <h5 className="fw-bold ">Super Secure Payment System</h5>
           </div>
         </div>
       </div>

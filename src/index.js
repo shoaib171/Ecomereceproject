@@ -8,11 +8,14 @@ import "animate.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
+import { AppProvider } from "./ContextApi/ProductContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <BrowserRouter>
-      <App />
+      <AppProvider>
+        <App />
+      </AppProvider>
     </BrowserRouter>
   </>
 );

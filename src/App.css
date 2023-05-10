@@ -16,6 +16,10 @@
 .Hero--part {
   background-color: #0d6efd !important;
 }
+.BOX--COLORED {
+  width: 200px;
+  height: 200px;
+}
 .Footer--Container {
   background-color: rgb(39, 34, 34);
 }
@@ -27,32 +31,20 @@
   padding: 0px 5px;
   border-radius: 20px;
 }
-.Service--part {
-  width: 15rem;
-  height: 8rem;
-  border: 2px solid grey;
-  border-radius: 20%;
-  cursor: pointer;
-  transition: width 0.5s, height 0.5s;
+.Services--part {
+  border-radius: 10px;
+  height: 250px;
+  background-color: #eeee;
 }
-.Service--part:hover {
-  width: 16.5rem;
-  height: 9rem;
+.Services--part:hover {
+  background-color: #f8f9fa !important;
 }
-.Service--part h5 {
-  text-align: center;
+.Services--Mid {
+  border-radius: 10px;
+  height: 120px;
+  margin: 4px 0px;
+  background-color: #eeee;
 }
-.Service--part2 {
-  width: 15rem;
-  height: 8rem;
-  border: 2px solid grey;
-  border-radius: 20%;
-  transition: width 0.5s, height 0.5s;
-  margin: auto;
-}
-.Service--part2:hover {
-  width: 16.5rem;
-}
-.Service--part2 h5 {
-  text-align: center;
+.Services--Mid:hover {
+  background-color: #f8f9fa !important;
 }
